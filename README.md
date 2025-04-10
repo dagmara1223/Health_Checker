@@ -28,6 +28,12 @@ The program collects daily data from participants, processes it, and uses a trai
    - **Body Temperature** 🌡️
    - **Human Benchmark Test Results** (e.g., Reaction Time) ⏱️
    - **Emotional State** 😊😟
+   Each row in the Google Sheets contains data collected from participants for a specific day. The structure of each row is as follows:
+   day 1 -> person 1
+   day 1 -> person 2
+   day 1 -> person 3
+   day 2 -> person 1
+   etc.
 
 3. **Daily Drawing**: 
    Participants draw a representation of their emotional state for the day.  
