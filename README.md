@@ -39,7 +39,10 @@ The program collects daily data from participants, processes it, and uses a trai
 
 3. **Daily Drawing**: 
    Participants draw a representation of their emotional state for the day.  
-   *(More details on the drawing soon...)*
+   Each day, all participants receive a white sheet of paper with a large black rectangle in the center.  
+   Their task is to visually express their emotional state by using four basic shapes — **rectangle**, **square**, **triangle**, and **circle** — in any number and arrangement they choose.
+
+   These drawings are later analyzed by the model, which interprets them based on a predefined psychoanalytic framework. The insights from this analysis help improve the personalization and accuracy of the           feedback given to each participant.
 
 4. **Data Analysis**: 
    After the experiment concludes, the data is processed, visualized, and analyzed using **SQL** and **Python**. It is then input into the trained ML model, which provides insights into the user's:
